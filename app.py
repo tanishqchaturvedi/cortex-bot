@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000/chat"
+API_URL = "https://cortex-bot-backend.onrender.com"
 
 st.set_page_config(page_title="Snowflake Cortex Analyst Demo", layout="wide")
 
