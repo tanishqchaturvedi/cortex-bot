@@ -3,9 +3,9 @@ import requests
 
 API_URL = "https://cortex-bot-backend.onrender.com"
 
-st.set_page_config(page_title="Snowflake Cortex Analyst Demo", layout="wide")
+st.set_page_config(page_title="Snowflake Cortex Analyst Chatbot", layout="wide")
 
-st.title("🤖 Snowflake Cortex Analyst Chat")
+st.title("🤖 Snowflake Cortex Analyst Chatbot")
 
 # Keep chat history
 if "messages" not in st.session_state:
